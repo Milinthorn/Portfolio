@@ -32,7 +32,7 @@ const projects = () => {
 4. Taking time learning new knowledge for this first project.`}
 
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/SubmissionForm.git" target="_blank">see my project ➜</a>
                         </div>
                     )}
                     <li onClick={() => setClick(isclick === "todolist" ? null : "todolist")}>To do List</li>
@@ -53,7 +53,7 @@ const projects = () => {
                                 {`1. When handling multiple functions in a project, solve them gradually by working on one part at a time
 2. Resolved syntax errors through comprehensive research and testing prior to implementation.`}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/To-do-list.git" target="_blank">see my project ➜</a>
                         </div>
                     )}
                     <li onClick={() => setClick(isclick === "portfolio" ? null : "portfolio")}>Portfolio</li>
@@ -74,7 +74,7 @@ const projects = () => {
 utilized useNavigation hooks,
 and created dynamic animations with Framer Motion, improving my UI design skills as well.`}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/Portfolio.git" target="_blank">see my project ➜</a>
                         </div>
                     )}
                 </ul>
@@ -97,7 +97,7 @@ This serves as a foundational skill-building exercise in coding, aimed at prepar
                                 {`      Time management is crucial due to the numerous functions that need to be handled.
 `}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/42Cadet-Journey/tree/main/Libft" target="_blank">see my project ➜</a>
                         </div>
                     )}
                     <li onClick={() => setClick(isclick === "printf" ? null : "printf")}>Printf</li>
@@ -118,7 +118,7 @@ This serves as a foundational skill-building exercise in coding, aimed at prepar
 After researching, I concluded that printf returns an int for error handling:
 a positive value indicates the number of characters printed, while a negative value signals an error.`}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/42Cadet-Journey/tree/main/ft_printf" target="_blank">see my project ➜</a>
                         </div>
                     )}
                     <li onClick={() => setClick(isclick === "getnextline" ? null : "getnextline")}>Get next line</li>
@@ -138,7 +138,7 @@ a positive value indicates the number of characters printed, while a negative va
                                 {`Spent time figuring out the logic to make the code work efficiently just like the assignment required. 
 Also dealt with testing code when edge cases weren't properly handled upfront.`}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/42Cadet-Journey/tree/main/get_next_line" target="_blank">see my project ➜</a>
                         </div>
                     )}
                     <li onClick={() => setClick(isclick === "minitalk" ? null : "minitalk")}>Minitalk</li>
@@ -162,7 +162,7 @@ The process of exploring documentation, testing prototypes
 and debugging significantly extended the project timeline
 but ultimately deepened my mastery of these new tools.`}
                             </pre>
-                            <button>see my project ➜</button>
+                            <a href="https://github.com/Milinthorn/42Cadet-Journey/tree/main/minitalk" target="_blank">see my project ➜</a>
                         </div>
                     )}
                 </ul>
