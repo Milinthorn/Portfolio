@@ -55,7 +55,7 @@ const home = () => {
                         <br></br>
                         My goal is to seize opportunities in the tech industry and grow into a professional programmer who can create meaningful and impactful solutions.
                     </p>
-                    <a href="/public/Resume_Milinthorn.pdf" target="_blank">Resume ➜</a>
+                    <a href="/Resume_Milinthorn.pdf" target="_blank">Resume ➜</a>
 
                 </div>
                 <div className="skill">
