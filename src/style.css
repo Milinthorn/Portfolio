@@ -3,6 +3,7 @@
   padding: 0;
   color: whitesmoke;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -146,14 +147,14 @@ body {
   flex-direction: column;
   width: 70%;
   max-width: 900px;
-  min-width: 300px;
+  min-width: 700px;
   max-height: 80%;
   min-height: 50%;
   padding: 20px;
 }
 
 .info p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 20px;
   line-height: 1.6;
   width: 100%;
@@ -169,15 +170,17 @@ body {
 }
 
 .skill {
-  width: 700px;
+  width: 500px;
 
+}
+
+.skill img {
+  width: 60px;
 }
 
 .skill h4 {
-  color: whitesmoke;
   margin-bottom: 30px;
 }
-
 
 /* Project */
 .project {
@@ -221,6 +224,10 @@ body {
   text-decoration: underline;
 }
 
+.context a {
+  margin: 10px;
+}
+
 pre {
   line-height: 2;
   font-size: 1rem;
@@ -231,6 +238,7 @@ pre {
 /* Responsive Design */
 
 @media (max-width: 1000px) {
+
   .home-page {
     flex-direction: column;
   }
@@ -245,13 +253,11 @@ pre {
 
   .skill {
     width: 500px;
-
     margin-top: 80px
   }
 
   .skill img {
     width: 60px;
-
   }
 
   .skill h4 {
@@ -306,6 +312,15 @@ pre {
 
   .project h2 {
     font-size: 1.3rem;
+  }
+
+}
+
+@media (max-width: 728px) {
+
+  .info p {
+    font-size: 0.9rem;
+    width: 500px;
   }
 
 }
