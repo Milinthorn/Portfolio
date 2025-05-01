@@ -55,8 +55,9 @@ const home = () => {
                         <br></br>
                         My goal is to seize opportunities in the tech industry and grow into a professional programmer who can create meaningful and impactful solutions.
                     </p>
-                    <a href="/Resume_Milinthorn.pdf" target="_blank">Resume ➜</a>
-
+                    <div className="resume">
+                        <a href="/Resume_Milinthorn.pdf" target="_blank">Resume ➜</a>
+                    </div>
                 </div>
                 <div className="skill">
                     <h4>Tech Stack:</h4>
@@ -65,7 +66,7 @@ const home = () => {
                             key={index}
                             src={logo.src}
                             alt={logo.alt}
-                            width={logo.width}
+                            width={60}
                             initial="initial"
                             animate="animate"
                             whileInView="floating"
@@ -77,7 +78,7 @@ const home = () => {
                 </div>
             </div>
 
-            <div id="contact" className="contact">
+            <footer id="contact" className="contact">
                 <div className="circle">
                     <a href="https://github.com/Milinthorn/42Cadet-Journey" target="_blank">
                         <img className="img1" src="/GitHub-Logo.png" alt="GitHub" />
@@ -93,7 +94,7 @@ const home = () => {
                         <img src="/Linkedin-Logo.webp" alt="LinkedIn" />
                     </a>
                 </div>
-            </div>
+            </footer>
         </>
     )
 }

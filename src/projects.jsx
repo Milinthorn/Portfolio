@@ -9,75 +9,103 @@ const projects = () => {
                 <h2>Frontend Projects</h2>
                 <ul className="first">
                     <li onClick={() => setClick(isclick === "submission" ? null : "submission")}>Submission Form</li>
-                    {isclick === "submission" && (
-                        <div className="context">
-                            <pre>
-                                <b>Tech stack: </b> {`React`}
-                                <br />
-                                <b>Key learning: </b>
-                                <br />
-                                {`1. React Hook (useState and useEffect)
+                </ul>
+                {isclick === "submission" && (
+                    <div className="context">
+                        <pre>
+                            <b>Tech stack: </b> {`React`}
+                            <br />
+                            <b>Key learning: </b>
+                            <br />
+                            {`1. React Hook (useState and useEffect)
 2. Data Fetching (Fetch API + Async/Await)
 3. Javascript Expression
 4. Regex Pattern
 5. Form Handling (Input Types, React-select and Event listeners(onChange and onBlur))
 6. PreventDefault`}
-                                <br />
-                                <b>Challenge Faced: </b>
-                                <br />
-                                {`1. Handling email and phone number pattern by using Regex.
+                            <br />
+                            <b>Challenge Faced: </b>
+                            <br />
+                            {`1. Handling email and phone number pattern by using Regex.
 2. There was overlap rendering because multiple components were using the same state.
     The solution is to create separate state variables for each component.
 3. Handling data storage, After user submission, the data is stored in the web application and displayed in the console.
 4. Taking time learning new knowledge for this first project.`}
 
-                            </pre>
-                            <a href="https://github.com/Milinthorn/SubmissionForm.git" target="_blank">see my project ➜</a>
-                        </div>
-                    )}
+                        </pre>
+                        <a href="https://milinthorn-submission-form.netlify.app/" target="_blank">see my project ➜</a>
+                    </div>
+                )}
+                <ul className="first">
                     <li onClick={() => setClick(isclick === "todolist" ? null : "todolist")}>To do List</li>
-                    {isclick === "todolist" && (
-                        <div className="context">
-                            <pre>
-                                <b>Tech stack: </b> {`React`}
-                                <br></br>
-                                <b>Key learning: </b>
-                                <br></br>
-                                {`1. React Hook (useState)
+                </ul>
+                {isclick === "todolist" && (
+                    <div className="context">
+                        <pre>
+                            <b>Tech stack: </b> {`React`}
+                            <br></br>
+                            <b>Key learning: </b>
+                            <br></br>
+                            {`1. React Hook (useState)
 2. String Method (trim) and Array Method (includes, filter, map)
 3. Javascript Expression
 4. PreventDefault`}
-                                <br></br>
-                                <b>Challenge Faced: </b>
-                                <br></br>
-                                {`1. When handling multiple functions in a project, solve them gradually by working on one part at a time
+                            <br></br>
+                            <b>Challenge Faced: </b>
+                            <br></br>
+                            {`1. When handling multiple functions in a project, solve them gradually by working on one part at a time
 2. Resolved syntax errors through comprehensive research and testing prior to implementation.`}
-                            </pre>
-                            <a href="https://github.com/Milinthorn/To-do-list.git" target="_blank">see my project ➜</a>
-                        </div>
-                    )}
+                        </pre>
+                        <a href="https://milinthorn-todolist.netlify.app/" target="_blank">see my project ➜</a>
+                    </div>
+                )}
+                <ul className="first">
                     <li onClick={() => setClick(isclick === "portfolio" ? null : "portfolio")}>Portfolio</li>
-                    {isclick === "portfolio" && (
-                        <div className="context">
-                            <pre>
-                                <b>Tech stack: </b> {`React`}
-                                <br></br>
-                                <b>Key learning: </b>
-                                <br></br>
-                                {`1. React Hook (useState, useNavigation, useLocation)
+                </ul>
+                {isclick === "portfolio" && (
+                    <div className="context">
+                        <pre>
+                            <b>Tech stack: </b> {`React`}
+                            <br></br>
+                            <b>Key learning: </b>
+                            <br></br>
+                            {`1. React Hook (useState, useNavigation, useLocation)
 2. Framer-motion
 3. React-router-dom`}
-                                <br></br>
-                                <b>Challenge Faced: </b>
-                                <br></br>
-                                {`Learn new tools and try to understand before using such as react-router-dom for navigation,
+                            <br></br>
+                            <b>Challenge Faced: </b>
+                            <br></br>
+                            {`Learn new tools and try to understand before using such as react-router-dom for navigation,
 utilized useNavigation hooks,
 and created dynamic animations with Framer Motion, improving my UI design skills as well.`}
-                            </pre>
-                            <a href="https://github.com/Milinthorn/Portfolio.git" target="_blank">see my project ➜</a>
-                        </div>
-                    )}
+                        </pre>
+                    </div>
+                )}
+                <ul className="first">
+                    <li onClick={() => setClick(isclick === "quiz" ? null : "quiz")}>Quiz</li>
                 </ul>
+                {isclick === "quiz" && (
+                    <div className="context">
+                        <pre>
+                            <b>Tech stack: </b> {`React`}
+                            <br />
+                            <b>Key learning: </b>
+                            <br />
+                            {`1. Using useEffect to control the timer)
+2. Controlling the DOM using useRef
+3. Dynamically changing questions
+4. Preventing the timer from continuing after the user selects an answer`}
+                            <br />
+                            <b>Challenge Faced: </b>
+                            <br />
+                            {`1. Logic that becomes more complex
+2. Managing state in a quiz involves tracking the current and total questions, storing user answers, updating the score, handling a timer for each question, and resetting all states when moving to the next question or restarting the quiz.
+3. Handle question transitions by ensuring that clicking “Next” or a timeout correctly advances to the next question, while also resetting relevant data such as clearing the previous answer selection and restarting the timer.`}
+
+                        </pre>
+                        <a href="https://milinthorn-quiz.netlify.app/" target="_blank">see my project ➜</a>
+                    </div>
+                )}
                 <h2>42 Bangkok Projects</h2>
                 <ul className="second">
                     <li onClick={() => setClick(isclick === "libft" ? null : "libft")}>Libft</li>
@@ -166,7 +194,7 @@ but ultimately deepened my mastery of these new tools.`}
                         </div>
                     )}
                 </ul>
-            </div>
+            </div >
 
         </>
     )
